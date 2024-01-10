@@ -1,0 +1,46 @@
+
+    @media print {
+        /* Sembunyikan elemen yang tidak ingin dicetak */
+        body * {
+            visibility: hidden;
+        }
+
+        /* Tampilkan hanya tabel yang ingin dicetak */
+        #tabel_laporan, #tabel_laporan * {
+            visibility: visible;
+        }
+
+        /* Gaya untuk tabel yang ingin dicetak */
+        #tabel_laporan {
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        /* Atur lebar tabel agar sesuai dengan kertas cetak */
+        #tabel_laporan table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Gaya untuk baris tabel */
+        #tabel_laporan tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Gaya untuk sel tabel */
+        #tabel_laporan td, #tabel_laporan th {
+            padding: 8px;
+        }
+
+        /* Gaya untuk header tabel */
+        #tabel_laporan th {
+            background-color: #f2f2f2;
+        }
+
+        /* Gaya untuk teks dalam sel tabel */
+        #tabel_laporan td {
+            text-align: left;
+            vertical-align: top;
+        }
+    }

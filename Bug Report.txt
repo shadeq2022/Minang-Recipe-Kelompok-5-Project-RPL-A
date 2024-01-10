@@ -1,0 +1,7 @@
+Bug:
+1. Tidak bisa  edit langkah nama karena multi input begitu pula langkah gambar.
+solusi : hapus langkah dan tulis ulang langkah
+
+2. search pagination
+
+3. ketika di klik kategori ori, kemudian dipilih beli salah satu dan kembali ke page sebelumnya kategori tidak terefresh

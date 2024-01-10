@@ -1,0 +1,19 @@
+// custom variables
+$primary: #AA6514;
+$secondary: #EED9C2;
+$info: #A57F52;
+
+// import the functions & variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+$custom-theme-color: (
+    "ijomuda": #33ff00,
+    "orenn": #FFA426,
+    "biru": #3ABAF4,
+);
+
+$theme-colors: map-merge($custom-theme-color, $theme-colors);
+
+// import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
