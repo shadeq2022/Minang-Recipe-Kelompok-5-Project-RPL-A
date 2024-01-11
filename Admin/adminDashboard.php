@@ -42,12 +42,12 @@ function ribuan($nilai)
                 $row = mysqli_fetch_assoc($result);
                 $total_resep = $row['total_resep'];
 
-                // Menampilkan total costumer
+                // Menampilkan total resep
                 echo $total_resep;
                 ?>
               </div>
               <div class="mt-2 mb-0 text-muted text-s custom-link">
-                <a href="#" class="text-primary mr-2"><i class="fas fa fa-info-circle"
+                <a href="kelolaResep.php" class="text-primary mr-2"><i class="fas fa fa-info-circle"
                     style="margin-right: 5px;"></i>Lihat</a>
               </div>
             </div>
@@ -105,7 +105,7 @@ function ribuan($nilai)
               <div class="text-xs font-weight-bold text-uppercase mb-1">Total Terjual</div>
               <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">
                 <?php
-                include("../dbConnection.php"); // Menghubungkan ke file koneksi.php
+                include("../dbConnection.php"); // Menghubungkan ke file dbConnection.php
                 
 
                 $query = "SELECT COUNT(*) AS total_ord FROM orderan"; // Gunakan backtick di sekitar 'order'
@@ -119,7 +119,7 @@ function ribuan($nilai)
                 ?>
               </div>
               <div class="mt-2 mb-0 text-muted text-s custom-link">
-                <a href="#" class="text-success mr-2"><i class="fas fa fa-info-circle"
+                <a href="adminLaporan.php" class="text-success mr-2"><i class="fas fa fa-info-circle"
                     style="margin-right: 5px;"></i>Lihat</a>
               </div>
             </div>
