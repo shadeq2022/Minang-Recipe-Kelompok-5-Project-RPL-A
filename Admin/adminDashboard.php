@@ -81,7 +81,7 @@ function ribuan($nilai)
                 ?>
               </div>
               <div class="mt-2 mb-0 text-muted text-s custom-link">
-                <a href="#" class="text-biru mr-2"><i class="fas fa fa-info-circle"
+                <a href="users.php" class="text-biru mr-2"><i class="fas fa fa-info-circle"
                     style="margin-right: 5px;"></i>Lihat</a>
               </div>
             </div>
