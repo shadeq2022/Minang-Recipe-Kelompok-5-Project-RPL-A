@@ -1,5 +1,5 @@
 # Minang Recipe
-![Alt Text](https://github.com/shadeq2022/Minang-Recipe-Kelompok-5-Project-RPL-A/blob/main/assets/img/logo-web.png?raw=true){:width="100px"}
+<img src="https://github.com/shadeq2022/Minang-Recipe-Kelompok-5-Project-RPL-A/blob/main/assets/img/logo-web.png" width="400" height="790">
 This platform allows users to explore authentic Minangkabau recipes, view food images, and find information about ingredients and cooking techniques. Users can easily search for specific recipes, and there's a feature for individuals to upload their original Minangkabau recipes. Owners of these recipes earn royalties, and the recipes are accessible only upon purchase. Users can also upload their own recipes, but without royalties. The system includes website administration, logged-in users for recipe uploads, and regular users for viewing.
 
 Website hosted here -> https://minangrecipe.000webhostapp.com/
