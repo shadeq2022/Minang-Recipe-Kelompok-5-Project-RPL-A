@@ -14,8 +14,43 @@ Website hosted here -> https://minangrecipe.000webhostapp.com/
 7. Ajax (with jQuery): Enables real-time updates without the need for page refresh.
 8. MySQL: Manages the database operations, seamlessly integrating with PHP to handle data storage and retrieval in the Minang Recipe application.
 
+## Features
+- Beranda
+- Lihat Resep Umum
+- Daftar
+- Masuk
+- Kelola Profil Saya
+- Daftar Semua Resep
+- Pencarian Resep
+- Filter Resep
+- Membeli Resep Original / Preview Beli Resep original
+- Masuk atau Daftar untuk Membeli
+- Resep Original
+- Checkout Resep Original
+- Tampil Resep OriginalID Use Case
+- Masuk Sebagai Administrator
+- Kelola Semua Resep Original/Umum
+- Kelola Detail Resep Original
+- Kelola User
+- Kelola Riwayat Penjualan
+- Ubah Password Admin
+- Bantuan
+- Keluar
+
 ## Project Demo
-![screen-gif](./bla.gif)
+
+
+https://github.com/shadeq2022/Minang-Recipe-Kelompok-5-Project-RPL-A/assets/108068374/562a2562-0737-4d59-a3e8-391f5d6521cd
+
 
 ## Account Information
-Informasi Akun.txt
+[Informasi Akun.txt](https://github.com/shadeq2022/Minang-Recipe-Kelompok-5-Project-RPL-A/blob/main/Informasi%20Akun.txt)
+
+## Project Team
+- Project Manager : Muhammad Shadeq
+- Architecture: Sherly Khairunnisa
+- Interface: Ririn Trikaori
+- Frontend: Muhammad Shadeq, Muhammad Yusuf and Weldika Ikhrama
+- Backend: Muhammad Shadeq and Muhammad Yusuf
+
+
